@@ -5,3 +5,103 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.f1{
+
+    background: #14213d;
+background: -webkit-linear-gradient(to right,#14213d,#596276);
+    background: linear-gradient(to right,#14213d,#596276);
+   
+}
+.f2{
+
+display: flex;
+
+
+top: 0;
+justify-content: space-between;
+z-index: 1;
+padding: 1rem;
+
+}
+
+.boxcontainer{
+    margin-left: 27%;
+     margin-top: 16px;
+     position: relative;
+     width: 300px;
+     height: 42px;
+     border: none;
+     
+     border-radius: 50px;
+    }
+    .search{
+        width: 600px;
+        height: 42px;
+        text-align: center;
+        border-radius: 50px;
+    }
+
+    .n1{
+        border: 4px solid white;
+      
+    }
+    .n2{
+       background-color: rgb(20, 33, 61);
+
+    }
+    .n3:hover{
+        background-color:  rgb(49, 47, 47);
+    
+    }
+    .cards{
+        width: 15%;
+
+        background-color: white;
+    }
+    .image img{
+        width: 100%;
+
+    }
+    .c1{
+        background-color: rgb(229, 229, 229);
+    }
+
+    .cards1{
+        width: 15%;
+        border: 1px solid gray;
+
+        background-color: white;
+    }
+    .image img{
+        width: 100%;
+
+    }
+    .l1{
+        width: 60%;
+    }
+    .l2{
+        width:95%;
+        height: 65%;
+    }
+
+    .v1{
+        width: 90%;
+    }
+
+
+
+    .b1{
+        background: #d62828;
+    }
+    .b2{
+        color: #14213d;
+    }
+    .btn{
+        border: none;
+        background: gray;
+    }
+
+    .f4{
+        background-color: rgb(27, 39, 67);
+      }
