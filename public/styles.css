@@ -31876,7 +31876,6 @@ video {
   top: 0;
   justify-content: space-between;
   z-index: 1;
-  padding: 1rem;
 }
 
 .boxcontainer{
@@ -31959,6 +31958,49 @@ video {
 
 .f4{
   background-color: rgb(27, 39, 67);
+}
+
+/*--csgo css-*/
+
+tr{
+  border: 1px solid gray;
+}
+
+td{
+  border: 1px solid gray;
+  padding: 10px 20px;
+}
+
+th{
+  border: 1px solid gray;
+  padding: 0px 10px;
+}
+
+.g2{
+  border: 1px solid  gray;
+}
+
+.g4{
+  border-bottom: 2px solid black;
+}
+
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.g3{
+  border: 1px solid gray;
+  width: 200;
+  height: 40;
+}
+
+.bg{
+  width: 100%;
+  height: 75%;
 }
 
 @media (min-width: 640px){
